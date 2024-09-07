@@ -1,6 +1,8 @@
 // import logo from './logo.svg';
 import './App.css';
 import New1 from './components/New1';
+import New2 from './components/New2';
+import Createobj from './components/Createobj';
 
 function App() {
   let a = 10;
@@ -18,7 +20,9 @@ function App() {
       {/* <h2>{a}+{b}={a+b}</h2> */}
       {/* <h2>{a+b}</h2> */}
       <h2>{addnum()}</h2>
-      <New1></New1>  
+      <New1/>  
+      <New2/>
+      <Createobj/>
     </div>
   );
 }
